@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv1"
+        android:textSize="20dp"
+        android:text="this is sans style"
+        android:typeface="sans"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv2"
+        android:textSize="20dp"
+        android:text="this is monoscope style"
+        android:typeface="monospace"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv3"
+        android:textSize="20dp"
+        android:text="this is serif style"
+        android:typeface="serif"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv4"
+        android:textSize="20dp"
+        android:text="this is normal style"
+        android:typeface="normal"
+        android:fontFamily="sans-serif-black"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv5"
+        android:textSize="20dp"
+        android:text="this is bold style"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv6"
+        android:textSize="20dp"
+        android:text="this is italic style"
+        android:textStyle="italic"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="serif"
+        android:typeface="serif"
+        android:id="@+id/btn1"/>
+</LinearLayout>
